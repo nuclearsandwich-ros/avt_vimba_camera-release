@@ -1,0 +1,12 @@
+Source: ros-humble-avt-vimba-camera
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-camera-info-manager, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-image-transport, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: https://github.com/astuff/avt_vimba_camera
+Standards-Version: 3.9.2
+
+Package: ros-humble-avt-vimba-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-camera-info-manager, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-image-proc, ros-humble-image-transport, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-stereo-image-proc, ros-humble-ros-workspace
+Description: Camera driver for Allied Vision Technologies (AVT) cameras, based on their Vimba SDK.
